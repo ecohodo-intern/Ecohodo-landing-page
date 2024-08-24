@@ -1,0 +1,27 @@
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+    color: #FDFDFD;
+    padding: 20px;
+    text-align: start;
+    box-sizing: border-box;    
+
+}
+
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.footer-end{
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.right-end{
+    width: 50%;
+}

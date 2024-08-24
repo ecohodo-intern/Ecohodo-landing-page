@@ -1,0 +1,22 @@
+.box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 calc(33.333% - 20px); 
+    background-color: rgba(81, 81, 81, 0.5);
+    color: #FDFDFD;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;    
+    border-radius: 8px;
+}
+.box-content > *:nth-child(3) > p {
+    margin: 0;
+}
+
+.profile-photo h4{
+
+    margin: 0px;
+
+}
+

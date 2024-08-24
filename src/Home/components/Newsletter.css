@@ -1,0 +1,50 @@
+.newsletter-content{
+    display: flex;           
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 20px;  
+    width: 80%;
+    margin: auto;         
+  
+}
+
+.content {
+   
+    /* width: 50%;    */
+    margin: auto;
+    box-sizing: border-box;
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+  
+}
+
+
+.email-input{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgba(243, 243, 243, 1);
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    background-color: transparent; 
+    color: rgba(255, 255, 255, 1);
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 1); 
+}
+
+.input-field{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    width: 50%;
+
+}
+
+.divider{
+    border: 1px solid rgba(156, 156, 156, 1);
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}

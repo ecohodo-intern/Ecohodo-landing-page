@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    width: 50%;
+}
+
+.hero-content p{
+    color: white;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 599px){
+    .hero-content{
+        width: 80%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px){
+    .hero-content{
+        width: 60%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px){
+    .hero-content{
+        width: 50%;
+    }
+}
+
+
+
+

@@ -1,0 +1,7 @@
+.main-style{
+    background-color: black;
+}
+
+.main-style > div{
+    padding: 30px 0px;
+}
